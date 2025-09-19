@@ -3,3 +3,8 @@ This is a small recipe book to demonstrate the new HTML skills I have learned. T
 One improvement I want for this project is to make the website more appealing in general. Maybe more fonts and different colors. I also want to add a checkbox next to the ingredients that can be marked by the user once they get the ingredient.
 
 This project helped me learn the importance of spacing and the importance of good commit comments to remember what I did. This project also helped me determine which list to use at which time. 
+
+<img src="Screenshot 2025-09-18 213345.png" height= 300>
+<img src= "Screenshot 2025-09-18 213554.png" height = 300>
+<img src= "Screenshot 2025-09-18 213714.png" height = 300>
+<img src= "Screenshot 2025-09-18 213822.png" height= 300>
