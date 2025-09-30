@@ -31,3 +31,25 @@ header{
     color: white;
 }
 
+.food-btn{
+    display: inline-block;
+    color: black;
+    padding: 5px 8px;
+    background-color: rgb(126, 131, 135);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+
+}
+.food-btn:hover {
+    background-color: darkgrey;
+    text-decoration: none;
+    color: white;
+}
+
+.img{
+    border-radius: 8px;
+    border: 3px solid black;
+}
