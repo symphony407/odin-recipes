@@ -1,12 +1,28 @@
-This is a small recipe book to demonstrate the new HTML skills I have learned. The project name is "The Recipe Book." 
+<img width="1918" height="1029" alt="image" src="https://github.com/user-attachments/assets/3b117de1-bf13-4196-8ad3-a3600c65afa8" />The Recipe Book
 
-One improvement I want for this project is to make the website more appealing in general by adding different fonts and spacing aspects in a more readable format. I also want to add a checkbox next to the ingredients that can be marked by the user so they can keep track of what they have.
+This is a small recipe book to demonstrate what I have learned using HTML and CSS. This project displays multiple recipes, each with a list of ingredients and step-by-step instructions.  
 
-This project helped me learn the importance of spacing and the importance of good commit comments to remember what I did. This project also helped me determine which list to use at which time. 
+The home page displays the recipes available, and after a recipe is clicked, the screen switches to that recipe's page.
 
-<img src="Screenshot 2025-09-18 213345.png" height= 300>
-<img src= "Screenshot 2025-09-18 213554.png" height = 300>
-<img src= "Screenshot 2025-09-18 213714.png" height = 300>
-<img src= "Screenshot 2025-09-18 213822.png" height= 300>
+<img width="1406" height="1032" alt="Screenshot 2025-12-17 123417" src="https://github.com/user-attachments/assets/ebec5b08-3e38-450a-9c52-c9dbfcb09559" />
+<img width="1364" height="1031" alt="Screenshot 2025-12-17 123402" src="https://github.com/user-attachments/assets/d5a5ca86-35fd-466a-8f12-6e811dde87eb" />
+<img width="1352" height="1027" alt="Screenshot 2025-12-17 123320" src="https://github.com/user-attachments/assets/ea1aaa1f-a8c7-4e5c-93df-5383425e7d73" />
+<img width="1918" height="1029" alt="Screenshot 2025-12-17 123112" src="https://github.com/user-attachments/assets/d496bad6-f4f6-49ba-9d88-c1501600a39a" />
+
+
+
+
+Technologies Used: 
+HTML5, CSS3, FlexBox, CSS Grid, Git/GitHub, VS Code
+
+Major features that were implemented were semantic HTML elements to help with accessibility and readability. Fonts and accent styles were implemented across the website to improve its appeal, while adhering to a more general color scheme. The project was also centralized on the screen instead of being on the default left side. 
+
+Another major feature implemented was adding reusable recipe cards to the index page. Each card contains the recipe's title, a view recipe button, and the recipe's image. Also, the buttons to navigate between the recipe pages and the homescreen are now styled the same.
+
+In the future, I would like to add page animations and a dark mode.
+
+This was a great project to help me improve on my Flexbox skills, as well as learning Grid.
+
+
 
 https://symphony407.github.io/odin-recipes/index.html
