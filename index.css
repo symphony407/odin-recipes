@@ -7,8 +7,8 @@
     --accent: #352b35; 
     --accent-hover: #ff8a5c;
     --btn-radius: 8px;
-    --font-main: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-header: cursive;
+  --font-main: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-header: 'Playfair Display SC', serif;
     --text-heading: #333333;
     --text-body: #555555;
 
@@ -128,9 +128,18 @@ header{
         grid-template-columns: 1fr;
     }
 }
-h1, h2, h3{
-    color: var(--text-heading);
-    margin-bottom: 0.75rem;
+h1 {
+  font-family: var(--font-header);
+  letter-spacing: 0.05em;
+}
+
+h2 {
+  font-family: var(--font-header);
+  letter-spacing: 0.03em;
+}
+
+.card-content h3 {
+  font-family: var(--font-header);
 }
 p,ul,ol{
     margin-bottom: 1rem;
