@@ -1,13 +1,13 @@
-<img width="1918" height="1029" alt="image" src="https://github.com/user-attachments/assets/3b117de1-bf13-4196-8ad3-a3600c65afa8" />The Recipe Book
+The Recipe Book
 
 This is a small recipe book to demonstrate what I have learned using HTML and CSS. This project displays multiple recipes, each with a list of ingredients and step-by-step instructions.  
 
 The home page displays the recipes available, and after a recipe is clicked, the screen switches to that recipe's page.
 
+<img width="1918" height="1029" alt="image" src="https://github.com/user-attachments/assets/3b117de1-bf13-4196-8ad3-a3600c65afa8" />
 <img width="1406" height="1032" alt="Screenshot 2025-12-17 123417" src="https://github.com/user-attachments/assets/ebec5b08-3e38-450a-9c52-c9dbfcb09559" />
 <img width="1364" height="1031" alt="Screenshot 2025-12-17 123402" src="https://github.com/user-attachments/assets/d5a5ca86-35fd-466a-8f12-6e811dde87eb" />
 <img width="1352" height="1027" alt="Screenshot 2025-12-17 123320" src="https://github.com/user-attachments/assets/ea1aaa1f-a8c7-4e5c-93df-5383425e7d73" />
-<img width="1918" height="1029" alt="Screenshot 2025-12-17 123112" src="https://github.com/user-attachments/assets/d496bad6-f4f6-49ba-9d88-c1501600a39a" />
 
 
 
