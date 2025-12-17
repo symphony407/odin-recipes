@@ -137,6 +137,9 @@ h2 {
   font-family: var(--font-header);
   letter-spacing: 0.03em;
 }
+h3{
+    font-family: var(--font-header);
+}
 
 .card-content h3 {
   font-family: var(--font-header);
