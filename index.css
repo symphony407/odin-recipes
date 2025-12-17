@@ -1,71 +1,82 @@
 :root{
-    --bg: #cee8ff;
-    --header-bg: beige;
+    --bg: #fdf6f0;
+    --card-bg: #ffffff;
+    --header-bg:#ffffff;
     --header-color: black;
-    --accent:tomato;
-    --accent-hover: darkorange;
-    --btn-radius: 6px;
-    --font-main: 'Inter', sans-serif;
+    --card-shadow: rgba(0,0,0,0.1);
+    --accent: #ff6b35; 
+    --accent-hover: #efff5c;
+    --btn-radius: 8px;
+    --font-main: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     --font-header: cursive;
+    --text-heading: #333333;
+    --text-body: #555555;
+
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
     background-color: var(--bg);
     font-family: var(--font-main);
     line-height: 1.6;
+    color: var(--text-body);
 }
 
 header{
-    color: var(--header-color);
-    font-size: 40px;
-    font-family: var(--font-header);
-    background-color: var(--header-bg);
-    border: 3px solid green;
     text-align: center;
-    padding: 1rem;
+    padding: 2rem 1rem
 }
 
+.hero-section{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.hero-section h2{
+    color:var(--accent);
+}
 .back-btn, .food-btn{
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    color: white;
-    text-decoration: none;
-    border-radius: var(--btn-radius);
-    font-family: var(--font-main);
-    transition: transform 0.2s ease, background-color 0.3s ease;
-
+  display: inline-block;
+  background-color: var(--accent);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: var(--btn-radius);
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .back-btn{
     background-color: var(--accent);
 }
-
+.food-btn:hover,
 .back-btn:hover {
-    background-color: var(--accent-hover);
-    transform: scale(1.05);
+background-color: var(--accent-hover);
+  transform: scale(1.05);
 }
 
 .food-btn{
-    background-color: #7e8387
+    background-color: #352b35
 
-}
-.food-btn:hover {
-    background-color:#555;
 }
 
 .img{
     border-radius: 12px;
     max-width: 100%;
     height: auto;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
-.recipe-details{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    max-width: 900px;
-    margin:3rem auto;
-    padding: 0 2rem;
+.recipe-details {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
 }
 
 .recipe-text{
@@ -79,8 +90,8 @@ header{
     }
 }
 h1, h2, h3{
+    color: var(--text-heading);
     margin-bottom: 0.75rem;
-    line-height: 1.3;
 }
 p,ul,ol{
     margin-bottom: 1rem;
@@ -88,4 +99,54 @@ p,ul,ol{
 .img:hover{
     transform: scale(1.02);
     transition: transform 0.3s ease;
+}
+
+.grid{
+    max-width: 1100px;
+    margin: 0 auto 4rem;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+.card{
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+}
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 20px 35px rgba(0,0,0,0.12);
+}
+.card-content h2{
+    margin-bottom:0.5rem;
+}
+.card-content{
+    padding: 1.25rem;
+}
+.card-content p{
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+.card-content a{
+    text-decoration: none;
+    font-weight: 600;
+    color:tomato;
+    display: inline-block
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top: 1 px solid #eee;
+}
+@media (max-width: 700px) {
+  .hero-section h2 {
+    font-size: 1.5rem;
+  }
 }
